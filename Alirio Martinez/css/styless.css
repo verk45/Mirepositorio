@@ -1,0 +1,107 @@
+
+/* general*/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Century ; 
+    background-color: #eeeeee;
+}
+h1,
+h2 {
+    text-transform: uppercase;
+
+}
+/* Contenedor*/
+
+.main-container {
+    display: flex;
+    width: 100%;
+    max-width:1000px;
+}
+/* Barra lateral*/
+
+
+aside {
+   background-color: #222831;
+   width:38%;
+   margin-left: 2%;
+   
+}
+#profile-pic img{
+    border-radius:30%;
+    width:100%;
+
+    box-sizing: border-box;
+}
+#profile-pic figcaption{
+    text-align: center
+}
+
+aside * {
+    color: #E8E8E8;
+}
+
+aside h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+ aside section h3:first-child {
+     border-bottom: 2px solid #E8E8E8;
+     
+ }
+/*Contenido Principal*/
+main{
+    width:50%;
+    margin-left: 6%;
+
+}
+
+main section { 
+    background-color: #E8E8E8;
+    line-height: 1.5em;
+    
+    text-align: center
+
+}
+
+main section h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+     text-align: center
+}
+
+
+.hero {
+    background-color: #d65a31;
+    box-shadow: 2px 2px 40px 1px #00334E inset;
+    padding: 5px 5px 5px;
+    text-align: center;
+    
+}
+.hero h1 {
+    letter-spacing: 10px;
+
+}
+.hero h2{
+  color: #E8E8E8;
+   border-top: 2px solid #E8E8E8;
+   
+    letter-spacing: 10px;
+}
+
+aside dt{
+    width: 50;
+    float: left;
+
+}
+
+main dt{
+    width: 50;
+    float: left;
+    
+
+}
+
